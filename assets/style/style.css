@@ -1,0 +1,67 @@
+.presentacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 70vh;
+
+}
+
+.nombre{
+  inline-size: 40vw;
+  text-align: center;
+}
+
+.nombre span{
+  font-size: 160px;
+}
+
+.reseña{
+  inline-size: 40vw;
+}
+
+.educacion{
+  text-align: center;
+  margin-block-start: 80px;
+}
+
+.item{
+  margin-inline: auto;
+  inline-size: 90%;
+
+}
+
+.row{
+  align-items: center;
+  margin-block: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, .1);
+}
+
+.row:hover{
+  transition: all 200ms ease-in;
+  transform: scale(1.05);
+  border: none;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  /* box-shadow: 0px 5px 30px rgba(0, 0, 0, .15); */
+}
+
+.col-6{
+  padding-block: 20px;
+}
+
+.col-6:nth-child(1){
+  border-inline-end: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+footer{
+  position: absolute;
+  inline-size: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+.ftter {
+  position: relative;
+  padding-block: 24px;
+  inline-size: auto;
+}
